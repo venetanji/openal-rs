@@ -1,0 +1,1 @@
+initSidebarItems({"type":[["ALCboolean",""],["ALCbyte",""],["ALCchar",""],["ALCdouble",""],["ALCenum",""],["ALCfloat",""],["ALCint",""],["ALCshort",""],["ALCsizei",""],["ALCubyte",""],["ALCuint",""],["ALCushort",""],["ALCvoid",""]]});

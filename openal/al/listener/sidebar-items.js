@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["get_gain",""],["get_orientation",""],["get_position",""],["get_velocity",""],["set_gain","Set the master gain (should be positive)."],["set_orientation","Set the orientation of the listener."],["set_position","Set the position of the listener."],["set_velocity","Set the velocity vector."]]});

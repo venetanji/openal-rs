@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `ffi` mod in crate `openal`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, ffi">
+
+    <title>openal::al::ffi - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../../index.html'>openal</a>::<wbr><a href='../index.html'>al</a></p><script>window.sidebarCurrent = {name: 'ffi', ty: 'mod', relpath: '../'};</script><script defer src="../sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Module <a href='../../index.html'>openal</a>::<wbr><a href='../index.html'>al</a>::<wbr><a class='mod' href=''>ffi</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-30' class='srclink' href='../../../src/openal/src/al.rs.html#42-214' title='goto source code'>[src]</a></span></h1>
+<h2 id='constants' class='section-header'><a href="#constants">Constants</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.BITS.html'
+                                  title='openal::al::ffi::BITS'>BITS</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.BUFFER.html'
+                                  title='openal::al::ffi::BUFFER'>BUFFER</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.BUFFERS_PROCESSED.html'
+                                  title='openal::al::ffi::BUFFERS_PROCESSED'>BUFFERS_PROCESSED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.BUFFERS_QUEUED.html'
+                                  title='openal::al::ffi::BUFFERS_QUEUED'>BUFFERS_QUEUED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.BYTE_OFFSET.html'
+                                  title='openal::al::ffi::BYTE_OFFSET'>BYTE_OFFSET</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.CHANNELS.html'
+                                  title='openal::al::ffi::CHANNELS'>CHANNELS</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.CONE_INNER_ANGLE.html'
+                                  title='openal::al::ffi::CONE_INNER_ANGLE'>CONE_INNER_ANGLE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.CONE_OUTER_ANGLE.html'
+                                  title='openal::al::ffi::CONE_OUTER_ANGLE'>CONE_OUTER_ANGLE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.CONE_OUTER_GAIN.html'
+                                  title='openal::al::ffi::CONE_OUTER_GAIN'>CONE_OUTER_GAIN</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.DIRECTION.html'
+                                  title='openal::al::ffi::DIRECTION'>DIRECTION</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.DISTANCE_MODEL.html'
+                                  title='openal::al::ffi::DISTANCE_MODEL'>DISTANCE_MODEL</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.DOPPLER_FACTOR.html'
+                                  title='openal::al::ffi::DOPPLER_FACTOR'>DOPPLER_FACTOR</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.DOPPLER_VELOCITY.html'
+                                  title='openal::al::ffi::DOPPLER_VELOCITY'>DOPPLER_VELOCITY</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.EXPONENT_DISTANCE.html'
+                                  title='openal::al::ffi::EXPONENT_DISTANCE'>EXPONENT_DISTANCE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.EXPONENT_DISTANCE_CLAMPED.html'
+                                  title='openal::al::ffi::EXPONENT_DISTANCE_CLAMPED'>EXPONENT_DISTANCE_CLAMPED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.EXTENSIONS.html'
+                                  title='openal::al::ffi::EXTENSIONS'>EXTENSIONS</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FALSE.html'
+                                  title='openal::al::ffi::FALSE'>FALSE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FORMAT_MONO16.html'
+                                  title='openal::al::ffi::FORMAT_MONO16'>FORMAT_MONO16</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FORMAT_MONO8.html'
+                                  title='openal::al::ffi::FORMAT_MONO8'>FORMAT_MONO8</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FORMAT_STEREO16.html'
+                                  title='openal::al::ffi::FORMAT_STEREO16'>FORMAT_STEREO16</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FORMAT_STEREO8.html'
+                                  title='openal::al::ffi::FORMAT_STEREO8'>FORMAT_STEREO8</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.FREQUENCY.html'
+                                  title='openal::al::ffi::FREQUENCY'>FREQUENCY</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.GAIN.html'
+                                  title='openal::al::ffi::GAIN'>GAIN</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INITIAL.html'
+                                  title='openal::al::ffi::INITIAL'>INITIAL</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVALID_ENUM.html'
+                                  title='openal::al::ffi::INVALID_ENUM'>INVALID_ENUM</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVALID_NAME.html'
+                                  title='openal::al::ffi::INVALID_NAME'>INVALID_NAME</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVALID_OPERATION.html'
+                                  title='openal::al::ffi::INVALID_OPERATION'>INVALID_OPERATION</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVALID_VALUE.html'
+                                  title='openal::al::ffi::INVALID_VALUE'>INVALID_VALUE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVERSE_DISTANCE.html'
+                                  title='openal::al::ffi::INVERSE_DISTANCE'>INVERSE_DISTANCE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.INVERSE_DISTANCE_CLAMPED.html'
+                                  title='openal::al::ffi::INVERSE_DISTANCE_CLAMPED'>INVERSE_DISTANCE_CLAMPED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.LINEAR_DISTANCE.html'
+                                  title='openal::al::ffi::LINEAR_DISTANCE'>LINEAR_DISTANCE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.LINEAR_DISTANCE_CLAMPED.html'
+                                  title='openal::al::ffi::LINEAR_DISTANCE_CLAMPED'>LINEAR_DISTANCE_CLAMPED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.LOOPING.html'
+                                  title='openal::al::ffi::LOOPING'>LOOPING</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.MAX_DISTANCE.html'
+                                  title='openal::al::ffi::MAX_DISTANCE'>MAX_DISTANCE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.MAX_GAIN.html'
+                                  title='openal::al::ffi::MAX_GAIN'>MAX_GAIN</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.MIN_GAIN.html'
+                                  title='openal::al::ffi::MIN_GAIN'>MIN_GAIN</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.NONE.html'
+                                  title='openal::al::ffi::NONE'>NONE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.NO_ERROR.html'
+                                  title='openal::al::ffi::NO_ERROR'>NO_ERROR</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.ORIENTATION.html'
+                                  title='openal::al::ffi::ORIENTATION'>ORIENTATION</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.OUT_OF_MEMORY.html'
+                                  title='openal::al::ffi::OUT_OF_MEMORY'>OUT_OF_MEMORY</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.PAUSED.html'
+                                  title='openal::al::ffi::PAUSED'>PAUSED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.PENDING.html'
+                                  title='openal::al::ffi::PENDING'>PENDING</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.PITCH.html'
+                                  title='openal::al::ffi::PITCH'>PITCH</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.PLAYING.html'
+                                  title='openal::al::ffi::PLAYING'>PLAYING</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.POSITION.html'
+                                  title='openal::al::ffi::POSITION'>POSITION</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.PROCESSED.html'
+                                  title='openal::al::ffi::PROCESSED'>PROCESSED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.REFERENCE_DISTANCE.html'
+                                  title='openal::al::ffi::REFERENCE_DISTANCE'>REFERENCE_DISTANCE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.RENDERER.html'
+                                  title='openal::al::ffi::RENDERER'>RENDERER</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.ROLLOFF_FACTOR.html'
+                                  title='openal::al::ffi::ROLLOFF_FACTOR'>ROLLOFF_FACTOR</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SAMPLE_OFFSET.html'
+                                  title='openal::al::ffi::SAMPLE_OFFSET'>SAMPLE_OFFSET</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SEC_OFFSET.html'
+                                  title='openal::al::ffi::SEC_OFFSET'>SEC_OFFSET</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SIZE.html'
+                                  title='openal::al::ffi::SIZE'>SIZE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SOURCE_RELATIVE.html'
+                                  title='openal::al::ffi::SOURCE_RELATIVE'>SOURCE_RELATIVE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SOURCE_STATE.html'
+                                  title='openal::al::ffi::SOURCE_STATE'>SOURCE_STATE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SOURCE_TYPE.html'
+                                  title='openal::al::ffi::SOURCE_TYPE'>SOURCE_TYPE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.SPEED_OF_SOUND.html'
+                                  title='openal::al::ffi::SPEED_OF_SOUND'>SPEED_OF_SOUND</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.STATIC.html'
+                                  title='openal::al::ffi::STATIC'>STATIC</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.STOPPED.html'
+                                  title='openal::al::ffi::STOPPED'>STOPPED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.STREAMING.html'
+                                  title='openal::al::ffi::STREAMING'>STREAMING</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.TRUE.html'
+                                  title='openal::al::ffi::TRUE'>TRUE</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.UNDETERMINED.html'
+                                  title='openal::al::ffi::UNDETERMINED'>UNDETERMINED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.UNUSED.html'
+                                  title='openal::al::ffi::UNUSED'>UNUSED</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.VELOCITY.html'
+                                  title='openal::al::ffi::VELOCITY'>VELOCITY</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.VENDOR.html'
+                                  title='openal::al::ffi::VENDOR'>VENDOR</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='constant' href='constant.VERSION.html'
+                                  title='openal::al::ffi::VERSION'>VERSION</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr></table><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBuffer3f.html'
+                                  title='openal::al::ffi::alBuffer3f'>alBuffer3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBuffer3i.html'
+                                  title='openal::al::ffi::alBuffer3i'>alBuffer3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBufferData.html'
+                                  title='openal::al::ffi::alBufferData'>alBufferData</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBufferf.html'
+                                  title='openal::al::ffi::alBufferf'>alBufferf</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBufferfv.html'
+                                  title='openal::al::ffi::alBufferfv'>alBufferfv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBufferi.html'
+                                  title='openal::al::ffi::alBufferi'>alBufferi</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alBufferiv.html'
+                                  title='openal::al::ffi::alBufferiv'>alBufferiv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDeleteBuffers.html'
+                                  title='openal::al::ffi::alDeleteBuffers'>alDeleteBuffers</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDeleteSources.html'
+                                  title='openal::al::ffi::alDeleteSources'>alDeleteSources</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDisable.html'
+                                  title='openal::al::ffi::alDisable'>alDisable</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDistanceModel.html'
+                                  title='openal::al::ffi::alDistanceModel'>alDistanceModel</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDopplerFactor.html'
+                                  title='openal::al::ffi::alDopplerFactor'>alDopplerFactor</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alDopplerVelocity.html'
+                                  title='openal::al::ffi::alDopplerVelocity'>alDopplerVelocity</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alEnable.html'
+                                  title='openal::al::ffi::alEnable'>alEnable</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGenBuffers.html'
+                                  title='openal::al::ffi::alGenBuffers'>alGenBuffers</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGenSources.html'
+                                  title='openal::al::ffi::alGenSources'>alGenSources</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBoolean.html'
+                                  title='openal::al::ffi::alGetBoolean'>alGetBoolean</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBooleanv.html'
+                                  title='openal::al::ffi::alGetBooleanv'>alGetBooleanv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBuffer3f.html'
+                                  title='openal::al::ffi::alGetBuffer3f'>alGetBuffer3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBuffer3i.html'
+                                  title='openal::al::ffi::alGetBuffer3i'>alGetBuffer3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBufferf.html'
+                                  title='openal::al::ffi::alGetBufferf'>alGetBufferf</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBufferfv.html'
+                                  title='openal::al::ffi::alGetBufferfv'>alGetBufferfv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBufferi.html'
+                                  title='openal::al::ffi::alGetBufferi'>alGetBufferi</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetBufferiv.html'
+                                  title='openal::al::ffi::alGetBufferiv'>alGetBufferiv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetDouble.html'
+                                  title='openal::al::ffi::alGetDouble'>alGetDouble</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetDoublev.html'
+                                  title='openal::al::ffi::alGetDoublev'>alGetDoublev</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetEnumValue.html'
+                                  title='openal::al::ffi::alGetEnumValue'>alGetEnumValue</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetError.html'
+                                  title='openal::al::ffi::alGetError'>alGetError</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetFloat.html'
+                                  title='openal::al::ffi::alGetFloat'>alGetFloat</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetFloatv.html'
+                                  title='openal::al::ffi::alGetFloatv'>alGetFloatv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetInteger.html'
+                                  title='openal::al::ffi::alGetInteger'>alGetInteger</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetIntegerv.html'
+                                  title='openal::al::ffi::alGetIntegerv'>alGetIntegerv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListener3f.html'
+                                  title='openal::al::ffi::alGetListener3f'>alGetListener3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListener3i.html'
+                                  title='openal::al::ffi::alGetListener3i'>alGetListener3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListenerf.html'
+                                  title='openal::al::ffi::alGetListenerf'>alGetListenerf</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListenerfv.html'
+                                  title='openal::al::ffi::alGetListenerfv'>alGetListenerfv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListeneri.html'
+                                  title='openal::al::ffi::alGetListeneri'>alGetListeneri</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetListeneriv.html'
+                                  title='openal::al::ffi::alGetListeneriv'>alGetListeneriv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetProcAddress.html'
+                                  title='openal::al::ffi::alGetProcAddress'>alGetProcAddress</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSource3f.html'
+                                  title='openal::al::ffi::alGetSource3f'>alGetSource3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSource3i.html'
+                                  title='openal::al::ffi::alGetSource3i'>alGetSource3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSourcef.html'
+                                  title='openal::al::ffi::alGetSourcef'>alGetSourcef</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSourcefv.html'
+                                  title='openal::al::ffi::alGetSourcefv'>alGetSourcefv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSourcei.html'
+                                  title='openal::al::ffi::alGetSourcei'>alGetSourcei</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetSourceiv.html'
+                                  title='openal::al::ffi::alGetSourceiv'>alGetSourceiv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alGetString.html'
+                                  title='openal::al::ffi::alGetString'>alGetString</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alIsBuffer.html'
+                                  title='openal::al::ffi::alIsBuffer'>alIsBuffer</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alIsEnabled.html'
+                                  title='openal::al::ffi::alIsEnabled'>alIsEnabled</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alIsExtensionPresent.html'
+                                  title='openal::al::ffi::alIsExtensionPresent'>alIsExtensionPresent</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alIsSource.html'
+                                  title='openal::al::ffi::alIsSource'>alIsSource</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListener3f.html'
+                                  title='openal::al::ffi::alListener3f'>alListener3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListener3i.html'
+                                  title='openal::al::ffi::alListener3i'>alListener3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListenerf.html'
+                                  title='openal::al::ffi::alListenerf'>alListenerf</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListenerfv.html'
+                                  title='openal::al::ffi::alListenerfv'>alListenerfv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListeneri.html'
+                                  title='openal::al::ffi::alListeneri'>alListeneri</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alListeneriv.html'
+                                  title='openal::al::ffi::alListeneriv'>alListeneriv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSource3f.html'
+                                  title='openal::al::ffi::alSource3f'>alSource3f</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSource3i.html'
+                                  title='openal::al::ffi::alSource3i'>alSource3i</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcePause.html'
+                                  title='openal::al::ffi::alSourcePause'>alSourcePause</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcePausev.html'
+                                  title='openal::al::ffi::alSourcePausev'>alSourcePausev</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcePlay.html'
+                                  title='openal::al::ffi::alSourcePlay'>alSourcePlay</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcePlayv.html'
+                                  title='openal::al::ffi::alSourcePlayv'>alSourcePlayv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceQueueBuffers.html'
+                                  title='openal::al::ffi::alSourceQueueBuffers'>alSourceQueueBuffers</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceRewind.html'
+                                  title='openal::al::ffi::alSourceRewind'>alSourceRewind</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceRewindv.html'
+                                  title='openal::al::ffi::alSourceRewindv'>alSourceRewindv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceStop.html'
+                                  title='openal::al::ffi::alSourceStop'>alSourceStop</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceStopv.html'
+                                  title='openal::al::ffi::alSourceStopv'>alSourceStopv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceUnqueueBuffers.html'
+                                  title='openal::al::ffi::alSourceUnqueueBuffers'>alSourceUnqueueBuffers</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcef.html'
+                                  title='openal::al::ffi::alSourcef'>alSourcef</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcefv.html'
+                                  title='openal::al::ffi::alSourcefv'>alSourcefv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourcei.html'
+                                  title='openal::al::ffi::alSourcei'>alSourcei</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSourceiv.html'
+                                  title='openal::al::ffi::alSourceiv'>alSourceiv</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.alSpeedOfSound.html'
+                                  title='openal::al::ffi::alSpeedOfSound'>alSpeedOfSound</a></td>
+                           <td class='docblock short'>
+                                
+                           </td>
+                       </tr></table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../../";
+        window.currentCrate = "openal";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../../jquery.js"></script>
+    <script src="../../../main.js"></script>
+    
+    <script defer src="../../../search-index.js"></script>
+</body>
+</html>
